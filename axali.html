@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>firstsite</title>
+    <style>
+        header, .menu-wrapper, ul, .products-wrapper {
+            display: flex;
+        }
+        header{
+            justify-content: space-between;
+            padding: 0 15px;
+        }
+        .menu-wrapper{
+            align-items: center;
+        }
+        ul{
+            justify-content:space-around;
+            list-style: none;
+        }
+        .menu-items {
+            margin: 0 15px;
+        }
+        a{
+            text-decoration: none;
+            color: #000;
+        }
+        a:hover {
+            font-weight: bold;
+            color: blueviolet;
+            transform: scale(0.9);
+        }
+        .products-wrapper{
+            justify-content: center;
+        }
+        .products{
+            width: 300px;
+            height: 200px;
+            background-color: red;
+            margin: 10px 20px;
+        }
+    </style>
+</head>
+<body>
+    <!-- <header></header> სემანტიკური თეგები
+    <footer></footer>
+    <section></section>
+    <article></article>
+    <aside></aside>
+    <main></main>
+    <nav></nav>
+      კლასის გამოძახება ხდება წერტილით -->
+
+    <header>
+        <div class="logo-wrapper">
+            <img src="./image/logo.png" alt="logo" width="150">
+        </div>
+        <div class="menu-wrapper">
+            <nav>
+                <ul>
+                   <a class="menu-items" href="#1"><li>მთავარი</li></a>
+                   <a class="menu-items" href="#2"><li>ჩვენ შესახებ</li></a>
+                   <a class="menu-items" href="#3"><li>პროდუქტები</li></a>
+                   <a class="menu-items" href="#4"><li>ბლოგი</li></a>
+                   <a class="menu-items" href="#5"><li>კონტაქტი</li></a>
+                </ul>
+            </nav>
+        </div>
+    </header> 
+    
+    <section class="products-wrapper">
+        <div class="products">
+            <h3>product name</h3>
+            <p>product description</p>
+            <button>Buy</button>
+        </div>
+        <div class="products">
+            <h3>product name</h3>
+            <p>product description</p>
+            <button>Buy</button>
+        </div>
+        <div class="products">
+            <h3>product name</h3>
+            <p>product description</p>
+            <button>Buy</button>
+        </div>
+        <div class="products">
+            <h3>product name</h3>
+            <p>product description</p>
+            <button>Buy</button>
+        </div>
+        <div class="products">
+            <h3>product name</h3>
+            <p>product description</p>
+            <button>Buy</button>
+        </div>
+    </section>
+    <article></article>
+    <aside></aside>
+    <main></main>
+    <nav></nav>
+    <footer>
+        <div class="footer-container"></div>
+        <div class="footer-container"></div>
+        <div class="footer-container"></div>
+        <div class="footer-container"></div>
+        <div class="footer-container"></div>
+    </footer>
+</body>
+</html>
